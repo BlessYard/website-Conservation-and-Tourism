@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACST | Tourism</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+          .main-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            justify-content: space-evenly;
+        }
+        .main-content {
+            flex: 3;
+            margin-right: 2rem;
+        }
+        .sidebar {
+            flex: 1;
+        }
+        
+        /* News/Event styles */
+        .news-item {
+            background-color: #fff;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .news-item h2 {
+            color: #27ae60;
+            margin-bottom: 0.5rem;
+        }
+        .news-item .date {
+            color: #777;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        .read-more {
+            color: #27ae60;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        /* Sidebar styles */
+        .sidebar-widget {
+            background-color: #fff;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .sidebar-widget h3 {
+            color: #27ae60;
+            margin-bottom: 1rem;
+        }
+        .search-form input[type="text"] {
+            width: 70%;
+            padding: 0.5rem;
+        }
+        .search-form button {
+            width: 28%;
+            padding: 0.5rem;
+            background-color: #27ae60;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div id="branding">
+               <a href="index.html"><img src="images/logo-removebg-preview.png" alt="ACST logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">About Us</a>
+                        <div class="dropdown-content">
+                            <a href="who_we_are.html">Who We Are</a>
+                            <a href="what_we_do.html">What We Do</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="opportunities.html">Opportunities</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">News</a>
+                        <div class="dropdown-content">
+                            <a href="tourism.html">Tourism</a>
+                            <a href="environment.html">Environment</a>
+                            <a href="conservation.html">Conservation</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Projects</a>
+                        <div class="dropdown-content">
+                            <a href="results.html">Results</a>
+                            <a href="research.html">Research</a>
+                            <a href="gallery.html">Gallery</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Get Involved</a>
+                        <div class="dropdown-content">
+                            <a href="partner.html">Become a Partner</a>
+                            <a href="volunteer.html">Volunteer with us</a>
+                            <a href="donate.html">Make a Donation</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+               
+            </nav>
+             <button class="donate-btn">DONATE</button>
+        </div>
+    </header>
+
+    <section id="who-we-showcase">
+        <div class="container-show">
+            <h1>Discover Rwanda's Natural Beauty</h1>
+            <p>Experience the rich biodiversity and breathtaking landscapes.</p>
+        </div>
+    </section>
+
+
+<div class="main-container">
+    <main class="main-content">
+        <article class="news-item">
+            <h2>Our Tourism Practices</h2>
+            <div class="date">Dec 10, 2024</div>
+            <p>Stay updated with the latest developments and trends in the tourism sector.
+                 Our tourism news section covers a wide range of topics including sustainable tourism practices. Whether you're a tourism professional, a traveler,
+                 or simply interested in the field, our curated news articles provide valuable insights and inspiration.</p>
+            <a href="#" class="read-more">READ MORE</a>
+        </article>
+        
+        <article class="news-item">
+            <h2>Upcoming Event: Partners Conference Day</h2>
+            <div class="date">Dec 30, 2024</div>
+            <p>Join Us as we gather as partners to discuss the affairs of Conservation and Tourism in Rwanda</p>
+            <a href="volunteer.html" class="read-more">READ MORE</a>
+        </article>
+        
+
+    </main>
+    
+    <aside class="sidebar">
+       
+        <div class="sidebar-widget">
+            <h3>Upcoming Events</h3>
+            <ul>
+                <li>High School Visits - Dec 15, 2024</li>
+                <li>Conservation Workshop - Nov 5, 2024</li>
+                <li>Sustainable Tourism Conference - October 10, 2024</li>
+            </ul>
+        </div>
+        
+        
+    </aside>
+</div>
+    <section id="blog">
+        <h2>Latest Blog Posts</h2>
+        <div class="container">
+            
+            <div class="blog-post">
+                <img src="TOURISM/IMG-20221122-WA0045.jpg" alt="Blog 1">
+                <h3>Exploring Volcanoes National Park</h3>
+                <p>Discover the unique biodiversity and stunning landscapes of Volcanoes National Park.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-post">
+                <img src="TOURISM/IMG-20221122-WA0052.jpg" alt="Blog 2">
+                <h3>The Beauty of Nyungwe Forest</h3>
+                <p>Immerse yourself in the tranquil and lush Nyungwe Forest, home to diverse flora and fauna.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-post">
+                <img src="TOURISM/IMG-20221122-WA0084.jpg" alt="Blog 3">
+                <h3>Discover Kigali: A Cultural Hub</h3>
+                <p>Experience the vibrant culture and historical sites of Rwanda's capital city, Kigali.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-post">
+                <img src="TOURISM/IMG-20230321-WA0002.jpg" alt="Blog 4">
+                <h3>Gorilla Trekking: An Unforgettable Adventure</h3>
+                <p>Join us for an unforgettable gorilla trekking experience in the heart of Rwanda.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="content">
+        <div class="container">
+            <h2>Tourism in Rwanda</h2>
+            <p>Rwanda is a top tourist destination known for its lush forests, majestic mountains, and diverse wildlife. From gorilla trekking to exploring vibrant cultural sites, there is something for every traveler.</p>
+            <img src="TOURISM/P1010884.JPG" alt="Tourism in Rwanda">
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div>
+                <h3>Let's Connect</h3>
+                <p><a href="acst.rwanda@gmail.com">acst.rwanda@gmail.com</a></p>
+                <p>Musanze City, Mpore Clinic
+
+                     Rwanda</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div>
+                <h3>Volunteer</h3>
+                <p>You can also be of help in make an impact </p>
+                <p>Let's work together!</p>
+                <a href="volunteer.html">Learn More</a>
+            </div>
+            <div>
+                <h3>Newsletter</h3>
+                <p>Receive emails with news about different opportunities and educational resources</p>
+                <a href="#">Join our Newsletter</a>
+            </div>
+        </div>
+        <p>Alliance for Conservation & Sustainable Tourism, Copyright &copy; 2024 |  All rights preserved</p>
+    </footer>
+
+</body>
+</html>

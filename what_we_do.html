@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+ .container-home section{
+    font-size: 1.5rem;
+ }
+/* Ecosystem Protection Section */
+#ecosystem-protection {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.container-ecosystem {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.text h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.text .read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        gap: 4rem;
+    }
+
+    .project-card {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .project-card h3 {
+        padding: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    .support-btn, .read-more-btn {
+        display: block;
+        width: 100%;
+        padding: 1.5rem;
+        border: none;
+        background-color: #27ae60;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-size: 1rem;
+    }
+
+    .support-btn:hover, .read-more-btn:hover {
+        background-color: #229954;
+    }
+/* Our Programs Section */
+#our-programs {
+    background: #ffffff;
+    padding: 20px;
+}
+
+#our-programs h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text-content, .image-content {
+    flex: 1 1 45%;
+    margin: 10px;
+}
+
+.text-content ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.text-content li {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.image-content{
+    width: 200px;
+}
+.image-content img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div id="branding">
+               <a href="index.html"><img src="images/logo-removebg-preview.png" alt="ACST logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">About Us</a>
+                        <div class="dropdown-content">
+                            <a href="who_we_are.html">Who We Are</a>
+                            <a href="what_we_do.html">What We Do</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="opportunities.html">Opportunities</a>
+                      
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">News</a>
+                        <div class="dropdown-content">
+                            <a href="tourism.html">Tourism</a>
+                            <a href="environment.html">Environment</a>
+                            <a href="conservation.html">Conservation</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Projects</a>
+                        <div class="dropdown-content">
+                            <a href="results.html">Results</a>
+                            <a href="research.html">Research</a>
+                            <a href="gallery.html">Gallery</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Get Involved</a>
+                        <div class="dropdown-content">
+                            <a href="partner.html">Become a Partner</a>
+                            <a href="volunteer.html">Volunteer with us</a>
+                            <a href="donate.html">Make a Donation</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+               
+            </nav>
+             <button class="donate-btn">DONATE</button>
+        </div>
+    </header>
+    <section id="who-we-showcase">
+        <div class="container-show">
+         <h1>What We Do</h1>
+           
+        </div>
+    </section>
+    <main>
+        <div class="container">
+            
+            <section id="our-programs">
+                <h2>Our Programs</h2>
+                <div class="content-wrapper">
+                    <div class="text-content">
+                        <ul>
+                            <li><strong>Education on Conservation and Sustainable Tourism:</strong> We offer educational programs that raise awareness about the importance of conservation and sustainable tourism practices. These initiatives aim to equip young people with the knowledge and skills needed to become advocates for the environment.</li>
+                            <li><strong>Advocacy and Awareness Campaigns:</strong> Our campaigns focus on promoting responsible tourism and conservation efforts. Through advocacy, we seek to influence policies and practices that support sustainable development in the tourism sector.</li>
+                            <li><strong>Community Engagement and Empowerment:</strong> We work closely with local communities to develop and implement conservation and sustainable tourism projects. By empowering community members, we help them to actively participate in and benefit from these initiatives.</li>
+                            <li><strong>Ecosystem Planning and Restoration:</strong> We undertake projects that aim to restore and maintain the health of local ecosystems. These efforts are crucial for preserving biodiversity and ensuring the sustainability of tourism activities.</li>
+                            <li><strong>Empowerment of Rwandan Entrepreneurs:</strong> We support local entrepreneurs by helping them to develop and scale up green business models. These businesses not only contribute to climate action but also provide economic opportunities for local communities.</li>
+                        </ul>
+                    </div>
+                    <div class="image-content">
+                        <img src="IMG-20220309-WA0026.jpg" alt="Our Programs Image">
+                    </div>
+                </div>
+            <section id="ecosystem-protection">
+                <div class="container-ecosystem">
+                    <div class="text">
+                        <h1>We Encourage Conservation and Tourism Practices</h1>
+                        <p>Fostering collaboration among stakeholders in the conservation and tourism sectors.
+                             Through innovative partnerships, advocacy, and education, it aims to promote responsible tourism practices that respect and 
+                             protect the environment, support local cultures, and contribute to the well-being of communities. 
+                             Its mission is to create a global network of like-minded organizations, businesses, and individuals 
+                             dedicated to advancing conservation efforts while enhancing the tourism experience sustainably.
+                             Young generations are the key focus to make sure we build long lasting impacts on the earth.</p>
+                        <a href="#" class="read-more">READ MORE</a>
+                    </div>
+                    <div class="image">
+                        <img src="CONSERVATION/386704921_298101122976604_872382389833855267_n.jpg" alt="Ecosystem Protection">
+                    </div>
+                </div>
+            </section>
+            <section id="welcome">
+                <div class="container-home">
+                    <h2>OUR Activities</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="nyungwe-canopy.jpg" alt="Vulture Rescue and Rehab Center">
+                    <h3>Nyungwe Canopy</h3>
+                    <button class="support-btn">VIEW</button>
+                </div>
+                <div class="project-card">
+                    <img src="IMG-20220309-WA0026.jpg" alt="The pollinator Habitat Project">
+                    <h3>Mountain Sights </h3>
+                    <button class="support-btn">VIEW</button>
+                </div>
+                <div class="project-card">
+                    <img src="IMG-20220309-WA0032.jpg" alt="">
+                    <h3>Tour around Musanze</h3>
+                    <button class="read-more-btn">VIEW</button>
+                </div>
+                <div class="project-card">
+                    <img src="IMG-20220309-WA0030.jpg" alt="">
+                    <h3>Enhance Community Capacity </h3>
+                    <button class="read-more-btn">VIEW</button>
+                </div>
+            </div>
+        </div>
+
+            <section>
+                <h2>Join Us</h2>
+                <p>We invite you to join us in our mission to promote conservation and sustainable tourism in Rwanda. Whether you are an organization, business, or individual, there are many ways to get involved and make a difference. Together, we can create a more sustainable and inclusive future for all.</p>
+            </section>
+            </section>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div>
+                <h3>Let's Connect</h3>
+                <p><a href="acst.rwanda@gmail.com">acst.rwanda@gmail.com</a></p>
+                <p>Musanze City, Mpore Clinic
+
+                     Rwanda</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div>
+                <h3>Volunteer</h3>
+                <p>You can also be of help in make an impact </p>
+                <p>Let's work together!</p>
+                <a href="volunteer.html">Learn More</a>
+            </div>
+            <div>
+                <h3>Newsletter</h3>
+                <p>Receive emails with news about different opportunities and educational resources</p>
+                <a href="#">Join our Newsletter</a>
+            </div>
+        </div>
+        <p>Alliance for Conservation & Sustainable Tourism, Copyright &copy; 2024 |  All rights preserved</p>
+    </footer>
+
+</body>
+</html>

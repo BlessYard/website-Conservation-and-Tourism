@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        /* Donate Showcase Styles */
+#donate-showcase {
+    min-height: 400px;
+    padding: 150px 0;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+#donate-showcase .donate-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.donate-left{
+    min-height: 400px;
+    background: url('CONSERVATION/275959647_4942178775869724_3259709870881252828_n.jpg') no-repeat center center/cover;
+    padding: 80px 0;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.donate-left, .donate-right {
+    flex: 1;
+    margin: 0 20px;
+    gap: 40px;
+}
+
+.donate-left h1 {
+    font-size: 50px;
+}
+
+.donate-left p {
+    font-size: 1.5rem;
+}
+
+.secure-btn {
+    background-color: #fff;
+    color: #27ae60;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.secure-btn::before {
+    content: "\f023"; 
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+}
+
+.donate-right h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-family: outfit;
+}
+
+.donate-right p {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Donate Amount Styles */
+#donate-amount {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#donate-amount h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* General Styles */
+.container-show {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div id="branding">
+               <a href="index.html"><img src="images/logo-removebg-preview.png" alt="ACST logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">About Us</a>
+                        <div class="dropdown-content">
+                            <a href="who_we_are.html">Who We Are</a>
+                            <a href="what_we_do.html">What We Do</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="opportunities.html">Opportunities</a>
+                    
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">News</a>
+                        <div class="dropdown-content">
+                            <a href="tourism.html">Tourism</a>
+                            <a href="environment.html">Environment</a>
+                            <a href="conservation.html">Conservation</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Projects</a>
+                        <div class="dropdown-content">
+                            <a href="results.html">Results</a>
+                            <a href="research.html">Research</a>
+                            <a href="gallery.html">Gallery</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Get Involved</a>
+                        <div class="dropdown-content">
+                            <a href="partner.html">Become a Partner</a>
+                            <a href="volunteer.html">Volunteer with us</a>
+                            <a href="donate.html">Make a Donation</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+               
+            </nav>
+             <button class="donate-btn">DONATE</button>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <div class="container-show">
+            <h1>Support Us</h1>
+            <p>Empowering Youth for Sustainable Tourism and Conservation in Rwanda</p>
+        </div>
+    </section>
+    <main>
+    <section id="donate-showcase">
+        <div class="container-show">
+            <div class="donate-content">
+                <div class="donate-left">
+                    <h1>Support Us</h1>
+                    <p>Help our organization by donating today!</p>
+                    <button class="secure-btn">100% Secure Donation</button>
+                </div>
+                <div class="donate-right">
+                    <h2>Support our conservation and tourism efforts across Rwanda!</h2>
+                    <p>Support our initiatives by making a donation to ACST. Your financial contributions are vital to our success, enabling us to fund essential projects, provide training and education, and drive advocacy efforts. Every donation, no matter the size, helps us make a positive impact on the environment and local communities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="donate-amount">
+        <div class="container">
+            <h2>How much would you like to donate?</h2>
+           
+        </div>
+    </section>
+</main>
+<a href="#" class="back-to-top">Back to Top</a>
+    <footer>
+        <div class="footer">
+            <div>
+                <h3>Let's Connect</h3>
+                <p><a href="acst.rwanda@gmail.com">acst.rwanda@gmail.com</a></p>
+                <p>Musanze City, Mpore Clinic
+
+                     Rwanda</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div>
+                <h3>Volunteer</h3>
+                <p>You can also be of help in make an impact </p>
+                <p>Let's work together!</p>
+                <a href="volunteer.html">Learn More</a>
+            </div>
+            <div>
+                <h3>Newsletter</h3>
+                <p>Receive emails with news about different opportunities and educational resources</p>
+                <a href="#">Join our Newsletter</a>
+            </div>
+        </div>
+        <p>Alliance for Conservation & Sustainable Tourism, Copyright &copy; 2024 |  All rights preserved</p>
+    </footer>
+
+</body>
+</html>

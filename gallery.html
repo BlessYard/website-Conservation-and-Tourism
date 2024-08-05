@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACST | Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Gallery Section */
+#gallery-intro {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#gallery-intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#gallery-intro p {
+    font-size: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.container-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.gallery-item {
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.gallery-item:hover::after {
+    content: 'Visualize our efforts through a curated collection of images and videos. Our gallery offers a glimpse into the various projects and activities undertaken by ACST. From community engagement events to ecosystem restoration efforts, the gallery provides an engaging way to see our work in action. Witness the beauty of the landscapes we protect, the species we conserve, and the communities we empower.';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 1;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div id="branding">
+               <a href="index.html"><img src="images/logo-removebg-preview.png" alt="ACST logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li ><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">About Us</a>
+                        <div class="dropdown-content">
+                            <a href="who_we_are.html">Who We Are</a>
+                            <a href="what_we_do.html">What We Do</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="opportunities.html">Opportunities</a>
+                      
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">News</a>
+                        <div class="dropdown-content">
+                            <a href="tourism.html">Tourism</a>
+                            <a href="environment.html">Environment</a>
+                            <a href="conservation.html">Conservation</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="current">Projects</a>
+                        <div class="dropdown-content">
+                            <a href="results.html">Results</a>
+                            <a href="research.html">Research</a>
+                            <a href="gallery.html">Gallery</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Get Involved</a>
+                        <div class="dropdown-content">
+                            <a href="partner.html">Become a Partner</a>
+                            <a href="volunteer.html">Volunteer with us</a>
+                            <a href="donate.html">Make a Donation</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+               
+            </nav>
+             <button class="donate-btn">DONATE</button>
+        </div>
+    </header>
+    <section id="contact-showcase">
+        <div class="container-show">
+            <h1>Gallery</h1>
+           <p> These are our Work
+        </p>
+           
+        </div>
+    </section>
+    
+    <section id="gallery-intro">
+        <div class="container">
+            <h1>Our Gallery</h1>
+            <p>Visualize our efforts through a curated collection of images and videos. Our gallery offers a glimpse into the various projects and activities undertaken by ACST. From community engagement events to ecosystem restoration efforts, the gallery provides an engaging way to see our work in action. Witness the beauty of the landscapes we protect, the species we conserve, and the communities we empower.</p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container-gallery">
+            <div class="gallery-item"><img src="images/gallery1.jpg" alt="Gallery Image 1"></div>
+            <div class="gallery-item"><img src="images/gallery2.jpg" alt="Gallery Image 2"></div>
+            <div class="gallery-item"><img src="images/gallery3.jpg" alt="Gallery Image 3"></div>
+            <div class="gallery-item"><img src="images/gallery4.jpg" alt="Gallery Image 4"></div>
+            <div class="gallery-item"><img src="images/gallery5.jpg" alt="Gallery Image 5"></div>
+            <div class="gallery-item"><img src="images/gallery6.jpg" alt="Gallery Image 6"></div>
+            <div class="gallery-item"><img src="images/gallery7.jpg" alt="Gallery Image 7"></div>
+            <div class="gallery-item"><img src="images/gallery8.jpg" alt="Gallery Image 8"></div>
+        </div>
+    </section>
+    <a href="#" class="back-to-top">Back to Top</a>
+    <footer>
+        <div class="footer">
+            <div>
+                <h3>Let's Connect</h3>
+                <p><a href="acst.rwanda@gmail.com">acst.rwanda@gmail.com</a></p>
+                <p>Musanze City, Mpore Clinic
+
+                     Rwanda</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div>
+                <h3>Volunteer</h3>
+                <p>You can also be of help in make an impact </p>
+                <p>Let's work together!</p>
+                <a href="volunteer.html">Learn More</a>
+            </div>
+            <div>
+                <h3>Newsletter</h3>
+                <p>Receive emails with news about different opportunities and educational resources</p>
+                <a href="#">Join our Newsletter</a>
+            </div>
+        </div>
+        <p>Alliance for Conservation & Sustainable Tourism, Copyright &copy; 2024 |  All rights preserved</p>
+    </footer>
+
+</body>
+</html>
